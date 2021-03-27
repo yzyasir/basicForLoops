@@ -54,18 +54,23 @@ for (i = 0; i < 101; i++){
 }
 
 // 4) Whoa. That Sucker's Huge - Add odd integers from 0 to 500,000, and print the final sum.
-// var count1 = 0;
-// for (i = 0; i < 500001; i++){
-//     if(i % 2 === 0){
-//         console.log("Its Even");
-//     }
-//     else{
-//         var sum = count1 + i;
-//         console.log(sum);
-//     }
-// }
+var count1 = 0;
+for (i = 0; i < 500001; i++){
+    if(i % 2 === 0){
+        // console.log("Its Even");
+    }
+    else{
+        var sum = count1 + i;
+        // console.log(sum);
+    }
+}
 
-// 5) Countdown by Fours - Print positive numbers starting at 2018, counting down by fours.
+// 5) Countdown by Fours - Print positive numbers starting at 2018, counting down by fours. COMPLETE.
+for (i=2018; i>0; i--){
+    if(i%4 === 0){
+        console.log(i);
+    }
+}
 
 
 // 6) Flexible Counter - Set three variables: lowNum, highNum, mult. Starting at lowNum and going through highNum, print only the integers that are a multiple of mult. 
